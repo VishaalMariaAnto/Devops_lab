@@ -18,8 +18,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
-
+  example
 steps:
 - task: Maven@3
   inputs:
